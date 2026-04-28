@@ -54,7 +54,7 @@ export default function Projects() {
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
               I am continuously building new projects and expanding my skills
-              across the full stack — from React.js frontends to Node.js
+              across the full stack - from React.js frontends to Node.js
               backends and beyond.
             </span>
             <p className="mt-10 text-base md:text-xl">

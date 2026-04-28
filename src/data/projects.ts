@@ -1,6 +1,6 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
+
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
@@ -50,10 +50,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Movie Discovery App",
     favicon: "/images/projects/logos/movieapp.ico",
-    imageUrl: [
-      "/images/project/movie1.png",
-      "/images/project/movie2.png",
-    ],
+    imageUrl: ["/images/project/movie1.png", "/images/project/movie2.png"],
     description:
       "A full-featured movie browsing app with a Node.js proxy backend securely managing TMDB API keys. Features real-time trending, popular, and search results, dynamic movie detail pages, genre filters, and a responsive UI optimized for both mobile and desktop.",
     sourceCodeHref: "https://github.com/pawanchouhan3101/Movie-App",
@@ -62,14 +59,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "DOS0",
     favicon: "/images/projects/logos/dos0.ico",
-    imageUrl: [
-      "/images/project/doso1.png",
-      "/images/project/doso2.png",
-    ],
+    imageUrl: ["/images/project/doso1.png", "/images/project/doso2.png"],
     description:
       "A fully responsive web application built with React.js using a strict component-based architecture. Optimized for cross-device compatibility with improved frontend load performance and clean, reusable UI structure.",
     sourceCodeHref: "https://github.com/pawanchouhan3101/Doso",
     liveWebsiteHref: "https://doso-mu.vercel.app",
   },
-  
 ];

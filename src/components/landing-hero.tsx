@@ -53,8 +53,7 @@ export default function LandingHero() {
                 <span className="font-semibold text-accent">Next.js</span>,{" "}
                 <span className="font-semibold text-accent">Node.js</span>,{" "}
                 <span className="font-semibold text-accent">Express.js</span>,{" "}
-                and{" "}
-                <span className="font-semibold text-accent">MongoDB</span>
+                and <span className="font-semibold text-accent">MongoDB</span>
               </div>
             </FadeUp>
           </AnimatePresence>

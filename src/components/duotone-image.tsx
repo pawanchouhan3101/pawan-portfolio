@@ -38,7 +38,6 @@ const DuotoneImage: React.FC<DuotoneImageProps> = ({
         ctx.drawImage(img, 0, 0);
 
         const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-        const data = imageData.data;
 
         // const light = hexToRgb(lightColor);
         // const dark = hexToRgb(darkColor);
@@ -123,21 +122,6 @@ const DuotoneImage: React.FC<DuotoneImageProps> = ({
     sharpnessFactor,
     processedImageUrl,
   ]);
-
-  const hexToRgb = (hex: string) => {
-    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-    return result
-      ? {
-          r: parseInt(result[1], 16),
-          g: parseInt(result[2], 16),
-          b: parseInt(result[3], 16),
-        }
-      : null;
-  };
-
-  const lerp = (start: number, end: number, amount: number): number => {
-    return start * (1 - amount) + end * amount;
-  };
 
   if (!processedImageUrl) {
     return null;
