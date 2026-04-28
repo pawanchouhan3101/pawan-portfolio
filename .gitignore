@@ -34,8 +34,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-#editor
+# editor
 .vscode
 
+# seo files
 public/sitemap.xml
 public/robots.txt
